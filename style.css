@@ -1,0 +1,81 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #193441;
+}
+
+h4{
+    color: #193441;
+}
+
+.inputRel {
+    width: 40px;
+    height:50px;
+    text-align: center;
+    margin:7px;
+    border: 2px solid #193441;
+    border-radius: 10px;
+    color: #193441;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputRel:hover {
+    border: 2px solid #0C7C59;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.relogio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputsDiv {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:15px;
+    margin-bottom: 50px
+}
+
+.botao {
+    border:none;
+    border-radius: 5px;
+    padding:7px;
+    background-color: #193441;
+    color:white
+}
+
+.botao:hover {
+    background-color: #0C7C59;
+    cursor: pointer;
+}
+
+.inputRel2{
+    width: 40px;
+    height:50px;
+    text-align: center;
+    margin:7px;
+    border: 2px solid #0C7C59;
+    border-radius: 10px;
+    color: #0C7C59;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h42 {
+    color: #0C7C59;
+}
